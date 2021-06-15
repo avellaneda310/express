@@ -1,7 +1,7 @@
 const { json } = require("express");
 const express = require ("express");
 const mysql = require("mysql2");
-const mysqlConfig = require("./config/config");
+const mysqlConfig = require("./config/config.js");
 
 const app = express();
 
